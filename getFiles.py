@@ -493,7 +493,7 @@ if (fileType == "6"):
         print("Backup storage already connected.")
         print("你所需要的资料是欧洲中心08时,请输入你需要调取的欧洲中心资料08时次:")
         print("1.今天欧洲粗网格08时非强制覆盖 2.昨天欧洲粗网格08时非强制覆盖")
-        print("3.今天欧洲粗网格08时强制覆盖 4.今天欧洲粗网格08时强制覆盖")
+        print("3.今天欧洲粗网格08时强制覆盖 4.昨天欧洲粗网格08时强制覆盖")
         fileGetType = input()
         beginGetEurop(fileGetType,"08")
     else:
@@ -506,7 +506,7 @@ if (fileType == "6"):
             print("Connection success.")
             print("你所需要的资料是欧洲中心08时,请输入你需要调取的欧洲中心资料08时次:")
             print("1.今天欧洲粗网格08时非强制覆盖 2.昨天欧洲粗网格08时非强制覆盖")
-            print("3.今天欧洲粗网格08时强制覆盖 4.今天欧洲粗网格08时强制覆盖")
+            print("3.今天欧洲粗网格08时强制覆盖 4.昨天欧洲粗网格08时强制覆盖")
             fileGetType = input()
             beginGetEurop(fileGetType,"08")
         else:
@@ -520,7 +520,7 @@ if (fileType == "7"):
         print("Backup storage already connected.")
         print("你所需要的资料是欧洲中心20时,请输入你需要调取的欧洲中心资料20时次:")
         print("1.今天欧洲粗网格20时非强制覆盖 2.昨天欧洲粗网格20时非强制覆盖")
-        print("3.今天欧洲粗网格20时强制覆盖 4.今天欧洲粗网格20时强制覆盖")
+        print("3.今天欧洲粗网格20时强制覆盖 4.昨天欧洲粗网格20时强制覆盖")
         fileGetType = input()
         beginGetEurop(fileGetType,"20")
     else:
@@ -533,7 +533,7 @@ if (fileType == "7"):
             print("Connection success.")
             print("你所需要的资料是欧洲中心20时,请输入你需要调取的欧洲中心资料20时次:")
             print("1.今天欧洲粗网格20时非强制覆盖 2.昨天欧洲粗网格20时非强制覆盖")
-            print("3.今天欧洲粗网格20时强制覆盖 4.今天欧洲粗网格20时强制覆盖")
+            print("3.今天欧洲粗网格20时强制覆盖 4.昨天欧洲粗网格20时强制覆盖")
             fileGetType = input()
             beginGetEurop(fileGetType,"20")
         else:
