@@ -538,5 +538,3 @@ if (fileType == "7"):
             beginGetEurop(fileGetType,"20")
         else:
             raise Exception("Failed to find storage directory.")
-# for i in tqdm.tqdm(range(100)):
-#     time.sleep(0.05)...
